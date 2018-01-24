@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="learn javascript by www.liaoxuefeng.com">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <script src="/static/js/jquery.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <header class="navbar navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <img src="./static/images/koa.jpg" height="50px" style="display:inline" alt=""/> 
+                <a href="/" class="navbar-brand"> Learn Koa</a>
+            </div>
+            <nav class="collapse navbar-collapse" id="bs-navbar">
+                <ul class="nav navbar-nav">
+                    <li><a  href="#">Node JS</a></li>
+                    <li><a  href="#">Mysql</a></li>
+                    <li><a  href="#">Front end</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="pannel" style="color:#cdbfe3; background-color:#6f5499; padding:30px 0; margin:-20px 0 20px 0;">
+        <div class="container">
+            <h1 style="color:#fff; font-size:60px">full Stack</h1>
+            <p style="font-size:24px; line-height:48px">javascript nodejs koa2 bootstrap jquery mysql</p>
+        </div>
+    </div>
+    {% block main %} {% endblock %}
+    <footer style="background-color:#ddd; padding: 20px 0;">
+        <div class="container">
+            <p>
+                <a href="#">aboutShun</a>
+                <a  href="https://github.com/shunJS">shun_website</a> - 
+                <a target="_blank" href="https://shunjs.github.io/">shunJS</a>
+            </p>
+            <p>This code is learn do by shun <a target="_blank" href="https://github.com/shunJS">@shun</a></p>
+            <p>License is open source <a href="https://opensource.org/licenses/MIT">MIT</a> </p>
+        </div>
+    </footer>
+</body>
+
+</html>
